@@ -31,7 +31,7 @@ CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHAN
 AUTH_CHANNEL = int(environ.get('AUTH_CHANNEL', '-1002945743074'))
 AUTH_REQ_CHANNEL = int(environ.get('AUTH_REQ_CHANNEL', '-1002925277438'))
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1003010254067'))
-LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '')) 
+LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002877779129')) 
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', ''))
 
 # MongoDB 
