@@ -32,7 +32,7 @@ AUTH_CHANNEL = int(environ.get('AUTH_CHANNEL', '-1002945743074'))
 AUTH_REQ_CHANNEL = int(environ.get('AUTH_REQ_CHANNEL', '-1002925277438'))
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1003010254067'))
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002877779129')) 
-LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', ''))
+LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002652025575'))
 
 # MongoDB 
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://chitrasonmalik:piuVfhuDQ1T0bMEb@cluster0.kz6ifxp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
